@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+:root {
+    --primary-color: #FBBF24;
+}
+
+body {
+font-family: 'Libre Baskerville', serif;
+margin: 0px;
+}
+.header {
+    background-color: var(--primary-color) ;
+   
+}
+.header .header-heading {
+    padding: 4rem 2rem;
+    text-align: center;
+    margin: auto;
+}
+/* .txt-input {
+    height: 7vh;
+    width: 40%;
+    position: relative;
+    left: 25%;
+    display: block;
+    text-align: left;
+    margin: 2rem;
+    padding: 2rem;
+} */
+/* #btn-translate {
+    position: absolute;
+    left: 27%;
+    width: 44.5%;
+    background-color: #FBBF24;
+    font-size: larger;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 5px;
+} */
+/* .txt-output {
+    padding: 2rem;
+    margin: 2rem;
+    width: 40%;
+    left: 25%;
+    height: 7vh;
+    display: block;
+    position: relative;
+
+} */
+.container-center {
+    width: 600px;
+    margin: auto;
+}
+#txt-input {
+    width: 90%;
+    margin: 1rem;
+    height: 10vh;
+    display: block;
+    padding: 1rem;
+    border: 1px solid black;
+}
+#btn-translate {
+   
+    background-color: #FBBF24;
+    width: 96%;
+    margin: 1rem;
+    font-size: larger;
+    padding: 10px 5px;
+    border-radius: 5px; 
+}
+#output {
+    width: 90%;
+    margin: 1rem;
+    height: 10vh;
+    display: block;
+    padding: 1rem;
+    border: 1px solid black;
+}
+.footer {
+    background-color: var(--primary-color);
+    
+    margin: auto;
+    color: black;
+    padding: 2.7rem 2rem;
+    
+    
+}
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+.footer .footer-text {
+    width: 600px;
+    margin: auto;
+    margin-top: 1rem;
+    font-size: larger;
+    display: block;
+    text-align: center;
+}
